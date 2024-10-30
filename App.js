@@ -22,8 +22,6 @@ const UserProfile = () => {
 
 const ProfileScreen = () => {
   const { isDarkMode, toggleDarkMode } = useContext(ThemeContext);
-
-  // Styles based on theme
   const themeStyles = isDarkMode ? darkStyles : lightStyles;
 
   return (
