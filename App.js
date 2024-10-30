@@ -28,8 +28,7 @@ const ProfileScreen = () => {
     <View style={[styles.container, themeStyles.container]}>
       {/* Header Section */}
       <View style={styles.header}>
-        {/* Replace with your image path or URL */}
-        <Image
+      
             source={require('./assets/profile.jpg')}
             style={styles.profileImage}
        />
