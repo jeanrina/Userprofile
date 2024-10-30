@@ -2,7 +2,7 @@ import React, { useState, useContext, createContext } from 'react';
 import { View, Text, StyleSheet, Image, Switch, TouchableOpacity } from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
 
-// Theme context to toggle between dark and light modes
+
 const ThemeContext = createContext();
 
 const UserProfile = () => {
